@@ -1,0 +1,75 @@
+
+.nav-header {
+    color: #fff;
+    background-color: #1b3044;
+    display: flex;
+    max-width: 1280px;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+    margin: auto;
+    @apply md:mx-auto md:flex-row md:items-center 
+}
+
+
+
+.nav-header .link {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+header .link {
+    @apply flex cursor-pointer items-center whitespace-nowrap text-2xl font-black
+}
+.nav-header .logo-icon {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    color: #00bcd4;
+}
+
+nav {
+    margin-top: 0;
+    max-height: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: all  0.3s ease-in-out;
+    @apply md:ml-24 md:max-h-full md:flex-row md:items-start peer-checked:mt-8 peer-checked:max-h-56 max-h-0 w-full
+} 
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    @apply md:ml-auto md:flex-row md:space-y-0
+}
+
+
+
+.yes {
+    font-weight: 700;
+    @apply md:mr-12
+}
+
+.no{
+    @apply md:mr-12
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+

@@ -1,0 +1,190 @@
+.loader {
+  width: 100%;
+  height: 100%;
+}
+.loader div {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: white;
+}
+
+.loader div img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.hd-blog {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding-top: 4rem;
+  text-align: center;
+}
+.hd-blog p {
+  --tw-text-opacity: 1;
+  color: rgb(241 242 255 / var(--tw-text-opacity));
+}
+
+.hd-blog p span {
+  --tw-text-opacity: 1;
+  color: rgb(12 106 135 / var(--tw-text-opacity));
+}
+.hd-blog h1 {
+  margin-top: 0.5rem;
+  font-size: 1.88rem;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(12 106 135 / var(--tw-text-opacity));
+  @apply sm:text-5xl font-mono;
+}
+
+.tags {
+  margin-top: 1.5rem; /* mt-6 in Tailwind CSS */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem; /* gap-2 in Tailwind CSS */
+}
+
+.tag-btn {
+  border-radius: 0.375rem; /* rounded-lg in Tailwind CSS */
+  background-color: #273c6b; /* bg-richblack-900 in Tailwind CSS */
+  padding: 0.5rem 1rem; /* px-2 py-1 in Tailwind CSS */
+  font-weight: 500;
+  color: #f7ebeb; /* text-richblack-500 in Tailwind CSS */
+  transition: background-color 0.3s ease;
+}
+
+
+
+.img-con-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 2rem; /* pt-8 in Tailwind CSS */
+}
+
+.img-con-one div {
+  position: relative;
+  max-width: 650px; /* max-w-[650px] in Tailwind CSS */
+  margin-left: auto; /* md:mx-0 in Tailwind CSS */
+  margin-right: auto; /* md:mx-0 in Tailwind CSS */
+}
+
+.main-img {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.blog-start {
+  margin-left: auto; /* mx-auto in Tailwind CSS */
+  margin-right: auto; /* mx-auto in Tailwind CSS */
+  margin-top: 2.5rem; /* mt-10 in Tailwind CSS */
+  max-width: 768px; /* max-w-screen-md in Tailwind CSS */
+  padding-top: 2.5rem; /* py-10 in Tailwind CSS */
+  padding-bottom: 3rem; /* py-10 plus space-y-12 in Tailwind CSS */
+  padding-left: 1rem; /* px-4 in Tailwind CSS */
+  padding-right: 1rem; /* px-4 in Tailwind CSS */
+  font-family: "Inter", sans-serif; /* font-inter in Tailwind CSS */
+  font-size: 1.125rem; /* text-lg in Tailwind CSS */
+  line-height: 1.5; /* tracking-wide in Tailwind CSS */
+  color: #d1d5db; /* text-gray-300 in Tailwind CSS */
+}
+
+.blog-start strong {
+  font-size: 1.25rem; /* text-2xl in Tailwind CSS */
+  font-weight: 700; /* font-bold in Tailwind CSS */
+  color: #a5b4fc; /* text-blue-100 in Tailwind CSS */
+  font-style: italic; /* italic in Tailwind CSS */
+}
+
+.blog-start p {
+  text-align: justify;
+}
+
+.hr-line {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  @apply space-x-2;
+}
+
+.hr-line :nth-child(2) {
+  height: 0.125rem;
+  width: 8rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.hr-line :nth-child(1) {
+  height: 0.125rem;
+  width: 1.3rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+.hr-line :nth-child(3) {
+  height: 0.125rem;
+  width: 1.3rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.ending {
+  margin-left: auto; /* mx-auto in Tailwind CSS */
+  margin-right: auto; /* mx-auto in Tailwind CSS */
+  margin-top: 2.5rem; /* mt-10 in Tailwind CSS */
+  max-width: 1280px; /* max-w-screen-xl in Tailwind CSS */
+  padding-top: 5rem; /* py-20 in Tailwind CSS */
+}
+
+.ending h2 {
+  margin-bottom: 2rem; /* mb-8 in Tailwind CSS */
+  text-align: center;
+  font-size: 3rem; /* text-5xl in Tailwind CSS */
+  font-weight: bold; /* font-bold in Tailwind CSS */
+  color: #f3f4f6; /* text-gray-100 in Tailwind CSS */
+}
+
+.card-one {
+  margin-left: auto; /* mx-auto in Tailwind CSS */
+  margin-right: auto; /* mx-auto in Tailwind CSS */
+  display: grid;
+  max-width: 1024px; /* max-w-screen-lg in Tailwind CSS */
+  justify-content: center;
+  gap: 1.5rem; /* sm:gap-6 in Tailwind CSS */
+  padding-left: 1rem; /* px-4 in Tailwind CSS */
+  padding-right: 1rem; /* px-4 in Tailwind CSS */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(16rem, 1fr)
+  ); /* md:grid-cols-3 in Tailwind CSS */
+}
+
+.card-one article {
+  margin-left: auto; /* mx-auto in Tailwind CSS */
+  margin-right: auto; /* mx-auto in Tailwind CSS */
+  margin-top: 1.5rem; /* my-4 in Tailwind CSS */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.375rem; /* rounded-lg in Tailwind CSS */
+  border: 1px solid #d1d5db; /* border border-gray-300 in Tailwind CSS */
+  background-color: #fff; /* bg-white in Tailwind CSS */
+  color: #4b5563; /* text-gray-900 in Tailwind CSS */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* transition hover:translate-y-2 hover:shadow-lg in Tailwind CSS */
+}
+
+.card-one article:hover {
+  transform: translateY(-0.5rem); /* hover:translate-y-2 in Tailwind CSS */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* hover:shadow-lg in Tailwind CSS */
+}
